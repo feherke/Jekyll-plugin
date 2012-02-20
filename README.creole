@@ -1,0 +1,13 @@
+= FireGestures Script
+
+The [[http://liquidmarkup.org/|Liquid]] template engine used by the [[http://jekyllrb.com/|Jekyll]] static site generator makes possible to use plugins written by the
+user. A few such plugins can be downloaded from the locations enumerated on the [[https://github.com/mojombo/jekyll/wiki/Plugins|Jekyll repository's Plugins wiki page]].
+
+This repository contains a collection of plugins, each directory contains one plugin and the related files.
+
+Here are some plugins I wrote.
+
+* **Debug** - Allows calling any method of the template variables.
+* **Version** - Exposes some relevant version numbers.
+
+These plugins were intentionally kept short. For details see the [[http://feherke.github.com/ruby/jekyll/|Jekyll section of my site]].

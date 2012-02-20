@@ -1,0 +1,13 @@
+0.0 - October 2011
+  [+] Initial release.
+
+0.1 - February 2012
+  [+] Added the puts filter.
+
+0.2 - February 2012
+  [-] Removed the debug and puts filter.
+  [+] Added the send filter.
+
+
+
+( Legend : [+] added, [-] removed, [*] changed, [!] fixed )

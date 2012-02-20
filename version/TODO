@@ -1,0 +1,2 @@
+* Introduce a joker parameter to get the version of the currently used Markdown converter.
+* Provide release dates too.
