@@ -10,4 +10,4 @@ Here are some plugins I wrote.
 * **Debug** - Allows calling any method of the template variables.
 * **Version** - Exposes some relevant version numbers.
 
-These plugins were intentionally kept short. For details see the [[http://feherke.github.com/ruby/jekyll/|Jekyll section of my site]].
+These plugins were intentionally kept short. For details see the [[http://feherke.github.io/ruby/jekyll/|Jekyll section of my site]].

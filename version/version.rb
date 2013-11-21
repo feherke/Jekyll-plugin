@@ -1,4 +1,4 @@
-# Version Tag   version 0.1   February 2012   written by Feherke
+# Version Tag   version 0.3   November 2013   written by Feherke
 # Liquid tag to return various version numbers.
 #
 # Syntax :
@@ -9,6 +9,7 @@
 #       kramdown - kramdown converter's version ( See Kramdown::VERSION . )
 #       liquid - Liquid template's version
 #       maruku - Maruku converter's version ( See MaRuKu::Version . )
+#       pygments - Pygments highlighter's version ( See Pygments::VERSION . )
 #       ruby - Ruby interpreter's version ( See RUBY_VERSION . )
 #
 # Sample code :
@@ -16,6 +17,8 @@
 #
 # Sample output :
 #   1.9.2
+
+require 'pygments'
 
 module Jekyll
 
@@ -34,9 +37,10 @@ module Jekyll
         when 'kramdown' then Kramdown::VERSION
         when 'liquid' then Gem.loaded_specs['liquid'].version.version
         when 'maruku' then MaRuKu::Version
+        when 'pygments' then Gem.loaded_specs['pygments.rb'].version.version
         when 'ruby' then RUBY_VERSION
         else ''
-      end
+      end rescue '-'
     end
 
   end

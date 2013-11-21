@@ -8,6 +8,10 @@
   [-] Removed the debug and puts filter.
   [+] Added the send filter.
 
+0.3 - November 2013
+  [*] Renamed the send filter to call as some conflict appeared since one of the updates.
+  [+] Added the log filter to write the input to a file.
+
 
 
 ( Legend : [+] added, [-] removed, [*] changed, [!] fixed )
